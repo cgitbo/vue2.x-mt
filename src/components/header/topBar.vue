@@ -19,3 +19,12 @@ export default {
   }
 }
 </script>
+
+<style lang="stylus" scoped>
+.top-bar
+  width 1180px
+  height 40px
+  line-height 40px
+  margin 0 auto
+  color #999
+</style>

@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <el-row>
+    <el-row class="top-bar">
       <top-bar />
     </el-row>
     <el-row>
@@ -21,13 +21,6 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-.header
-  background-color #f8f8f8
-  color #999
-  width 100%
-  height 40px
-  line-height 40px
-  .el-row
-    width 1180px
-    margin 0 auto
+.top-bar
+  background-color #F8F8F8
 </style>
